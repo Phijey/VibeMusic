@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeMusic - Cadastrar</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="cabecalho-esquerda" class="cabecalho">
+            <a href="index.html" id="logo">VibeMusic</a>
+            <a href="index.html#autor" class="nav-link">Sobre Nós</a>
+            <a href="index.html#buscar" class="nav-link">Explorar</a>
+            <a href="index.html#estatisticas" class="nav-link">Estatísticas</a>
+            <a href="favoritos.html" id="link-favoritos" class="nav-link" hidden>Favoritos</a>
+            <a href="cadastro.html" id="link-cadastro" class="nav-link" hidden>Cadastrar</a>
+        </nav>
+
+        <nav id="cabecalho-direita" class="cabecalho">
+            <a href="index.html" id="btn-voltar">← Voltar</a>
+            <span id="saudacao-usuario" class="saudacao" hidden></span>
+            <a href="registro.html" id="link-registro" class="botao-cadastrese">Cadastre-se</a>
+            <a href="login.html" id="link-login" class="botao-login">Log In</a>
+            <button id="btn-logout" class="botao-logout" hidden>Logout</button>
+        </nav>
+
+        <div class="menu-hamburguer" aria-hidden="true">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+    <main>
+        <section id="cadastro">
+            <h1 id="cadastro-titulo">Cadastrar item</h1>
+            <p>Adicione, edite ou remova artistas e álbuns do catálogo do VibeMusic.</p>
+
+            <form class="form-cadastro" id="form-cadastro">
+                <input type="hidden" id="item-id" name="item-id">
+
+                <label for="tipo">Tipo</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="artista">Artista</option>
+                    <option value="album">Álbum</option>
+                </select>
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Ex: Luna Vox" required>
+
+                <label for="categoria">Categoria / Gênero</label>
+                <select id="categoria" name="categoria" required>
+                    <option value="" disabled selected>Selecione um gênero</option>
+                </select>
+
+                <label for="descricaoCurta">Descrição curta</label>
+                <textarea id="descricaoCurta" name="descricaoCurta" rows="2" required></textarea>
+
+                <label for="descricaoCompleta">Descrição completa</label>
+                <textarea id="descricaoCompleta" name="descricaoCompleta" rows="4"></textarea>
+
+                <label for="imagem">Imagem (caminho ou URL)</label>
+                <input type="text" id="imagem" name="imagem" placeholder="assets/img/Luna_Vox.jpg">
+
+                <label for="valor">Valor (ouvintes)</label>
+                <input type="text" id="valor" name="valor" placeholder="8.4M ouvintes">
+
+                <label for="tags">Tags (separadas por vírgula)</label>
+                <input type="text" id="tags" name="tags" placeholder="Pop, Brasil, Destaque">
+
+                <label for="curiosidades">Curiosidade</label>
+                <textarea id="curiosidades" name="curiosidades" rows="2"></textarea>
+
+                <!-- Campos exclusivos de ARTISTA -->
+                <fieldset class="campos-artista">
+                    <legend>Dados do artista</legend>
+
+                    <label for="seguidores">Seguidores</label>
+                    <input type="text" id="seguidores" name="seguidores" placeholder="2.1M">
+
+                    <label for="pais">País</label>
+                    <input type="text" id="pais" name="pais" placeholder="Brasil">
+
+                    <label for="albuns-campo">Álbuns (separados por vírgula)</label>
+                    <input type="text" id="albuns-campo" name="albuns" placeholder="Neon Dreams, Eclipse">
+                </fieldset>
+
+                <!-- Campos exclusivos de ÁLBUM -->
+                <fieldset class="campos-album">
+                    <legend>Dados do álbum</legend>
+
+                    <label for="artista">Artista</label>
+                    <input type="text" id="artista" name="artista" placeholder="Luna Vox">
+
+                    <label for="ano">Ano</label>
+                    <input type="text" id="ano" name="ano" placeholder="2019">
+
+                    <label for="gravadora">Gravadora</label>
+                    <input type="text" id="gravadora" name="gravadora" placeholder="SoundWave Records">
+
+                    <label for="faixas">Faixas (separadas por vírgula)</label>
+                    <input type="text" id="faixas" name="faixas" placeholder="Cidade de Vidro, Neon, Aurora">
+                </fieldset>
+
+                <!-- Galeria de fotos (opcional) -->
+                <fieldset class="campos-galeria">
+                    <legend>Galeria de fotos (opcional)</legend>
+                    <label for="galeria">Fotos vinculadas</label>
+                    <textarea id="galeria" name="galeria" rows="3" placeholder="assets/img/Luna_Vox.jpg ; Retrato oficial&#10;assets/img/Neon_Dreams.jpg ; Capa do álbum"></textarea>
+                    <span class="campo-ajuda">Uma foto por linha, no formato: <strong>caminho_da_imagem ; título</strong></span>
+                </fieldset>
+
+                <label class="checkbox-linha">
+                    <input type="checkbox" id="destaque" name="destaque"> Marcar como destaque
+                </label>
+
+                <div class="form-acoes">
+                    <button type="submit" id="btn-submit">Cadastrar</button>
+                    <button type="button" id="btn-cancelar" class="btn-secundario" hidden>Cancelar edição</button>
+                </div>
+            </form>
+
+            <div id="msg-cadastro"></div>
+
+            <h2 class="crud-subtitulo">Itens cadastrados</h2>
+            <div id="lista-itens-crud" class="lista-crud"></div>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li class="Titulo-lista">Empresa</li>
+            <li>Sobre</li>
+            <li>Junte-se a nós</li>
+        </ul>
+        <ul>
+            <li class="Titulo-lista">Comunidade</li>
+            <li>Blog</li>
+            <li>Fórum</li>
+            <li>Publicidade</li>
+        </ul>
+        <ul>
+            <li class="Titulo-lista">Plataforma</li>
+            <li>Como Funciona</li>
+            <li>Nossos Planos</li>
+        </ul>
+        <div id="icones">
+            <img src="assets/img/icone1.jpg" alt="">
+            <img src="assets/img/icone2.jpg" alt="">
+        </div>
+    </footer>
+
+    <script src="assets/js/sessao.js"></script>
+    <script src="assets/js/cadastro.js"></script>
+</body>
+</html>

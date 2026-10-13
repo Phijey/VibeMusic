@@ -1,0 +1,12 @@
+{
+  "name": "vibemusic",
+  "version": "2.0.0",
+  "description": "VibeMusic - Plataforma de descoberta musical (Trabalho Prático 2). Home dinâmica com busca e carrossel, página de detalhes com galeria, cadastro (CRUD) e estatísticas, consumindo dados de um JSON Server.",
+  "scripts": {
+    "start": "json-server --watch db/db.json --port 3000 --static public"
+  },
+  "author": "Pedro José Camilo",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}

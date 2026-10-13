@@ -1,0 +1,612 @@
+{
+  "itens": [
+    {
+      "id": 1,
+      "tipo": "artista",
+      "nome": "Luna Vox",
+      "descricaoCurta": "Luna Vox é uma das artistas mais inovadoras da cena pop brasileira, com voz marcante e letras introspectivas.",
+      "descricaoCompleta": "Nascida em São Paulo em 1997, Luna começou sua carreira aos 16 anos fazendo covers na internet. Seu primeiro álbum 'Neon Dreams' lançado em 2019 foi um sucesso imediato, rendendo-lhe dois discos de platina. Conhecida por misturar influências do synthpop dos anos 80 com batidas eletrônicas modernas, Luna Vox redefine o pop brasileiro a cada novo projeto.",
+      "imagem": "assets/img/Luna_Vox.jpg",
+      "categoria": "Pop Alternativo",
+      "valor": "8.4M ouvintes",
+      "tags": [
+        "Pop Alternativo",
+        "Synthpop",
+        "Brasil",
+        "Destaque"
+      ],
+      "destaque": true,
+      "seguidores": "2.1M",
+      "pais": "Brasil",
+      "albuns": [
+        "Neon Dreams",
+        "Eclipse",
+        "Ultravox EP"
+      ],
+      "curiosidades": "Luna Vox toca mais de 5 instrumentos e produziu metade das faixas do seu segundo álbum sozinha.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Luna_Vox.jpg",
+          "titulo": "Retrato oficial"
+        },
+        {
+          "imagem": "assets/img/Neon_Dreams.jpg",
+          "titulo": "Capa de 'Neon Dreams'"
+        },
+        {
+          "imagem": "assets/img/Luna_Vox.jpg",
+          "titulo": "Show ao vivo"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tipo": "artista",
+      "nome": "Marcos Beats",
+      "descricaoCurta": "Produtor e MC que vem dominando a cena do trap nacional com batidas pesadas e rimas afiadas.",
+      "descricaoCompleta": "Criado no subúrbio do Rio de Janeiro, Marcos Beats aprendeu a produzir músicas em um computador antigo da escola. Sua mistura única de trap americano com funk carioca criou um estilo próprio que influenciou toda uma geração de produtores. Em 2022, foi eleito o produtor revelação do ano pela principal revista de música do Brasil.",
+      "imagem": "assets/img/Marcos_Beat.jpg",
+      "categoria": "Hip-Hop / Trap",
+      "valor": "3.2M ouvintes",
+      "tags": [
+        "Hip-Hop",
+        "Trap",
+        "Funk Carioca",
+        "Brasil"
+      ],
+      "destaque": true,
+      "seguidores": "980K",
+      "pais": "Brasil",
+      "albuns": [
+        "Subúrbio Gold",
+        "Trap BR Vol.1",
+        "Noite Alta"
+      ],
+      "curiosidades": "Marcos já produziu faixas para mais de 50 artistas diferentes e nunca fez uma faculdade de música.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Marcos_Beat.jpg",
+          "titulo": "Retrato oficial"
+        },
+        {
+          "imagem": "assets/img/Suburbio_Gold.jpg",
+          "titulo": "Capa de 'Subúrbio Gold'"
+        },
+        {
+          "imagem": "assets/img/Marcos_Beat.jpg",
+          "titulo": "No estúdio"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "tipo": "artista",
+      "nome": "Sofia & The Band",
+      "descricaoCurta": "Rock indie visceral e poético, com performances ao vivo que deixam o público sem fôlego.",
+      "descricaoCompleta": "A banda se formou em 2017 em Belo Horizonte quando Sofia Leal encontrou os músicos em uma jam session universitária. O grupo ganhou notoriedade após uma performance viral no YouTube que acumulou mais de 10 milhões de visualizações. Seu som mistura o indie rock britânico com influências do axé e baião, criando algo genuinamente único.",
+      "imagem": "assets/img/Sofie_and_the_Band.jpg",
+      "categoria": "Indie Rock",
+      "valor": "5.7M ouvintes",
+      "tags": [
+        "Indie Rock",
+        "Rock Nacional",
+        "Brasil",
+        "Destaque"
+      ],
+      "destaque": true,
+      "seguidores": "1.5M",
+      "pais": "Brasil",
+      "albuns": [
+        "Jam Session #1",
+        "Caos Controlado",
+        "Live at BH"
+      ],
+      "curiosidades": "A banda ensaia todos os dias, incluindo feriados e finais de semana, há mais de 6 anos.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Sofie_and_the_Band.jpg",
+          "titulo": "Retrato oficial"
+        },
+        {
+          "imagem": "assets/img/Caos_Controlado.jpg",
+          "titulo": "Capa de 'Caos Controlado'"
+        },
+        {
+          "imagem": "assets/img/Sofie_and_the_Band.jpg",
+          "titulo": "Show ao vivo"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "tipo": "artista",
+      "nome": "Helena Mar",
+      "descricaoCurta": "Voz delicada da nova MPB, mistura violão, jazz e poesia em canções intimistas.",
+      "descricaoCompleta": "Helena Mar nasceu em Salvador e cresceu cercada pela música popular brasileira. Depois de anos tocando em bares e festivais independentes, lançou seu álbum de estreia 'Maré Mansa' em 2021, aclamado pela crítica como um dos melhores discos de MPB da década. Sua sonoridade combina a tradição da bossa nova com arranjos contemporâneos de jazz.",
+      "imagem": "assets/img/Helen_Mar.jpg",
+      "categoria": "MPB",
+      "valor": "2.9M ouvintes",
+      "tags": [
+        "MPB",
+        "Bossa Nova",
+        "Jazz",
+        "Brasil"
+      ],
+      "destaque": false,
+      "seguidores": "640K",
+      "pais": "Brasil",
+      "albuns": [
+        "Maré Mansa",
+        "Cais",
+        "Sereno"
+      ],
+      "curiosidades": "Helena escreve todas as suas letras à mão em um caderno que carrega desde os 12 anos.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Helen_Mar.jpg",
+          "titulo": "Retrato oficial"
+        },
+        {
+          "imagem": "assets/img/Mare_Mansa.jpg",
+          "titulo": "Capa de 'Maré Mansa'"
+        },
+        {
+          "imagem": "assets/img/Helen_Mar.jpg",
+          "titulo": "Apresentação intimista"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "tipo": "artista",
+      "nome": "Pulse Theory",
+      "descricaoCurta": "Dupla de música eletrônica que enche pistas de dança Brasil afora com sets hipnóticos.",
+      "descricaoCompleta": "Formada em Florianópolis por dois amigos de infância, a Pulse Theory começou produzindo remixes em um quarto alugado. Hoje, são presença confirmada nos maiores festivais de música eletrônica do país. Seu som funde house progressivo, techno melódico e elementos de música regional brasileira, criando uma identidade sonora inconfundível.",
+      "imagem": "assets/img/Pulse_Theory.jpg",
+      "categoria": "Eletrônica",
+      "valor": "4.1M ouvintes",
+      "tags": [
+        "Eletrônica",
+        "House",
+        "Techno",
+        "Festival"
+      ],
+      "destaque": false,
+      "seguidores": "1.1M",
+      "pais": "Brasil",
+      "albuns": [
+        "First Pulse",
+        "Frequência",
+        "Live Sets Vol.2"
+      ],
+      "curiosidades": "A dupla nunca revela seus rostos em shows, sempre se apresentando com máscaras de LED.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Pulse_Theory.jpg",
+          "titulo": "Retrato oficial"
+        },
+        {
+          "imagem": "assets/img/Frequencia.jpg",
+          "titulo": "Capa de 'Frequência'"
+        },
+        {
+          "imagem": "assets/img/Pulse_Theory.jpg",
+          "titulo": "Set no festival"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "tipo": "artista",
+      "nome": "Zé do Campo",
+      "descricaoCurta": "Sertanejo raiz com pegada moderna, cantando o interior do Brasil com autenticidade.",
+      "descricaoCompleta": "Vindo de uma pequena cidade de Goiás, Zé do Campo trabalhou na roça antes de viralizar com vídeos cantando ao pé da fogueira. Seu estilo resgata o sertanejo raiz e a viola caipira, mas com produção moderna que conquistou também o público jovem das grandes cidades. Já lotou arenas em todo o país.",
+      "imagem": "assets/img/Ze_Campo.jpg",
+      "categoria": "Sertanejo",
+      "valor": "6.8M ouvintes",
+      "tags": [
+        "Sertanejo",
+        "Viola Caipira",
+        "Raiz",
+        "Brasil"
+      ],
+      "destaque": true,
+      "seguidores": "1.9M",
+      "pais": "Brasil",
+      "albuns": [
+        "Pé de Serra",
+        "Estrada de Terra",
+        "Viola e Voz"
+      ],
+      "curiosidades": "Zé do Campo ainda mantém a fazenda da família e ordenha vacas quando não está em turnê.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Ze_Campo.jpg",
+          "titulo": "Retrato oficial"
+        },
+        {
+          "imagem": "assets/img/Pe_Serra.jpg",
+          "titulo": "Capa de 'Pé de Serra'"
+        },
+        {
+          "imagem": "assets/img/Ze_Campo.jpg",
+          "titulo": "Show na arena"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "tipo": "album",
+      "nome": "Neon Dreams",
+      "descricaoCurta": "O álbum de estreia de Luna Vox que a colocou no mapa da música pop brasileira.",
+      "descricaoCompleta": "Neon Dreams é uma jornada sonora que mistura sintetizadores dos anos 80 com produção moderna. Com 12 faixas, o álbum explora temas como identidade, pertencimento e amor não correspondido. A faixa 'Cidade de Vidro' ficou por 14 semanas consecutivas no topo das paradas nacionais.",
+      "imagem": "assets/img/Neon_Dreams.jpg",
+      "categoria": "Pop Alternativo",
+      "valor": "12M ouvintes",
+      "tags": [
+        "Pop Alternativo",
+        "Synthpop",
+        "Estreia",
+        "Destaque"
+      ],
+      "destaque": true,
+      "artista": "Luna Vox",
+      "ano": "2019",
+      "gravadora": "SoundWave Records",
+      "faixas": [
+        "Cidade de Vidro",
+        "Neon",
+        "Madrugada",
+        "Espelhos",
+        "Aurora",
+        "Síndrome",
+        "Paralela",
+        "Voz do Vento",
+        "Verão Eterno",
+        "Sonho Lúcido",
+        "Horizonte",
+        "Despertar"
+      ],
+      "curiosidades": "O álbum foi gravado em apenas 3 semanas em um estúdio improvisado no apartamento de Luna.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Neon_Dreams.jpg",
+          "titulo": "Capa do álbum"
+        },
+        {
+          "imagem": "assets/img/Luna_Vox.jpg",
+          "titulo": "Luna Vox (artista)"
+        },
+        {
+          "imagem": "assets/img/Neon_Dreams.jpg",
+          "titulo": "Edição especial"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "tipo": "album",
+      "nome": "Subúrbio Gold",
+      "descricaoCurta": "Uma ode às ruas e à resiliência, o projeto mais pessoal de Marcos Beats até hoje.",
+      "descricaoCompleta": "Subúrbio Gold é mais do que um álbum — é um documentário sonoro da vida nas periferias brasileiras. Com colaborações de nomes como DJ Pife e MC Tur, o projeto vendeu mais de 200 mil cópias digitais na primeira semana. A faixa 'Ouro Bruto' viralizou nas redes sociais e foi usada em dezenas de vídeos motivacionais.",
+      "imagem": "assets/img/Suburbio_Gold.jpg",
+      "categoria": "Hip-Hop / Trap",
+      "valor": "7.8M ouvintes",
+      "tags": [
+        "Hip-Hop",
+        "Trap",
+        "Independente",
+        "Periferia"
+      ],
+      "destaque": true,
+      "artista": "Marcos Beats",
+      "ano": "2021",
+      "gravadora": "Independente",
+      "faixas": [
+        "Intro: Subúrbio",
+        "Ouro Bruto",
+        "De Baixo Pra Cima",
+        "Noite no Morro",
+        "Família Primeiro",
+        "Trap RJ",
+        "Colaboração (feat. MC Tur)",
+        "Minha Missão",
+        "Saudade de Casa",
+        "Fim de Semana",
+        "Legado"
+      ],
+      "curiosidades": "Marcos investiu toda sua economia, cerca de R$ 8 mil, para produzir este álbum de forma independente.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Suburbio_Gold.jpg",
+          "titulo": "Capa do álbum"
+        },
+        {
+          "imagem": "assets/img/Marcos_Beat.jpg",
+          "titulo": "Marcos Beats (artista)"
+        },
+        {
+          "imagem": "assets/img/Suburbio_Gold.jpg",
+          "titulo": "Edição especial"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "tipo": "album",
+      "nome": "Caos Controlado",
+      "descricaoCurta": "O segundo álbum que consolidou Sofia & The Band como força do rock indie nacional.",
+      "descricaoCompleta": "Caos Controlado foi gravado ao longo de 8 meses em diferentes estúdios do Brasil. O álbum explora a dualidade entre a vida agitada da estrada e a necessidade de paz interior. Com 10 faixas poderosas, cada música conta uma história diferente mas todas conectadas pelo fio condutor da busca por equilíbrio.",
+      "imagem": "assets/img/Caos_Controlado.jpg",
+      "categoria": "Indie Rock",
+      "valor": "9.1M ouvintes",
+      "tags": [
+        "Indie Rock",
+        "Rock Nacional",
+        "Ao Vivo",
+        "Destaque"
+      ],
+      "destaque": true,
+      "artista": "Sofia & The Band",
+      "ano": "2022",
+      "gravadora": "Toca do Rock",
+      "faixas": [
+        "Abertura",
+        "Tempestade Interior",
+        "Acústica",
+        "Grito Silencioso",
+        "Caos (Interlúdio)",
+        "Controlado",
+        "Belo Horizonte",
+        "Estrada Longa",
+        "Paz",
+        "Fim"
+      ],
+      "curiosidades": "A faixa 'Grito Silencioso' foi escrita em 20 minutos durante uma parada de estrada no meio de Minas Gerais.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Caos_Controlado.jpg",
+          "titulo": "Capa do álbum"
+        },
+        {
+          "imagem": "assets/img/Sofie_and_the_Band.jpg",
+          "titulo": "Sofia & The Band (artista)"
+        },
+        {
+          "imagem": "assets/img/Caos_Controlado.jpg",
+          "titulo": "Edição especial"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "tipo": "album",
+      "nome": "Maré Mansa",
+      "descricaoCurta": "Álbum de estreia de Helena Mar, aclamado como um dos melhores discos de MPB da década.",
+      "descricaoCompleta": "Maré Mansa é um disco intimista que combina violão, piano e arranjos delicados de cordas. Gravado em uma casa de praia em Salvador, o álbum captura a serenidade do mar baiano em cada faixa. As letras poéticas falam sobre saudade, recomeços e a passagem do tempo, conquistando crítica e público.",
+      "imagem": "assets/img/Mare_Mansa.jpg",
+      "categoria": "MPB",
+      "valor": "3.4M ouvintes",
+      "tags": [
+        "MPB",
+        "Bossa Nova",
+        "Estreia",
+        "Bahia"
+      ],
+      "destaque": false,
+      "artista": "Helena Mar",
+      "ano": "2021",
+      "gravadora": "Azul Records",
+      "faixas": [
+        "Maré",
+        "Cais",
+        "Sereno",
+        "Saudade de Ti",
+        "Recomeço",
+        "Onda",
+        "Tempo",
+        "Farol",
+        "Calmaria",
+        "Adeus Sem Dor"
+      ],
+      "curiosidades": "Todas as faixas foram gravadas em uma única tomada, sem cortes ou edições posteriores.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Mare_Mansa.jpg",
+          "titulo": "Capa do álbum"
+        },
+        {
+          "imagem": "assets/img/Helen_Mar.jpg",
+          "titulo": "Helena Mar (artista)"
+        },
+        {
+          "imagem": "assets/img/Mare_Mansa.jpg",
+          "titulo": "Edição especial"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "tipo": "album",
+      "nome": "Frequência",
+      "descricaoCurta": "Disco de música eletrônica da Pulse Theory que define o som dos festivais brasileiros.",
+      "descricaoCompleta": "Frequência é uma viagem de house progressivo e techno melódico que mistura sintetizadores hipnóticos com samples de instrumentos regionais brasileiros. O álbum foi pensado para ser ouvido do início ao fim como uma única sessão contínua de dança, com transições perfeitas entre as faixas.",
+      "imagem": "assets/img/Frequencia.jpg",
+      "categoria": "Eletrônica",
+      "valor": "5.2M ouvintes",
+      "tags": [
+        "Eletrônica",
+        "House",
+        "Techno",
+        "Festival"
+      ],
+      "destaque": false,
+      "artista": "Pulse Theory",
+      "ano": "2023",
+      "gravadora": "Independente",
+      "faixas": [
+        "Sinal",
+        "Frequência",
+        "Pulso",
+        "Ressonância",
+        "Eco",
+        "Amplitude",
+        "Ruído Branco",
+        "Onda Curta",
+        "Estática",
+        "Silêncio"
+      ],
+      "curiosidades": "O álbum usa samples gravados em uma feira livre de Florianópolis transformados em batidas eletrônicas.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Frequencia.jpg",
+          "titulo": "Capa do álbum"
+        },
+        {
+          "imagem": "assets/img/Pulse_Theory.jpg",
+          "titulo": "Pulse Theory (artista)"
+        },
+        {
+          "imagem": "assets/img/Frequencia.jpg",
+          "titulo": "Edição especial"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "tipo": "album",
+      "nome": "Pé de Serra",
+      "descricaoCurta": "Álbum de Zé do Campo que resgata o sertanejo raiz com produção moderna.",
+      "descricaoCompleta": "Pé de Serra é um tributo às raízes caipiras do Brasil. Com viola, sanfona e violão, o disco celebra a vida no campo, o trabalho na roça e os causos da fogueira. A produção moderna deu novo fôlego ao gênero, atraindo tanto os fãs tradicionais quanto uma nova geração de ouvintes.",
+      "imagem": "assets/img/Pe_Serra.jpg",
+      "categoria": "Sertanejo",
+      "valor": "8.3M ouvintes",
+      "tags": [
+        "Sertanejo",
+        "Viola Caipira",
+        "Raiz",
+        "Destaque"
+      ],
+      "destaque": true,
+      "artista": "Zé do Campo",
+      "ano": "2020",
+      "gravadora": "Viola Records",
+      "faixas": [
+        "Pé de Serra",
+        "Fogueira",
+        "Estrada de Terra",
+        "Causo do Vô",
+        "Roça",
+        "Lua de Goiás",
+        "Viola e Voz",
+        "Saudade do Sítio",
+        "Festa na Cidade",
+        "Volta pra Casa"
+      ],
+      "curiosidades": "Todo o álbum foi gravado ao vivo em um galpão na fazenda da família de Zé.",
+      "galeria": [
+        {
+          "imagem": "assets/img/Pe_Serra.jpg",
+          "titulo": "Capa do álbum"
+        },
+        {
+          "imagem": "assets/img/Ze_Campo.jpg",
+          "titulo": "Zé do Campo (artista)"
+        },
+        {
+          "imagem": "assets/img/Pe_Serra.jpg",
+          "titulo": "Edição especial"
+        }
+      ]
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Pop Alternativo",
+      "descricao": "Pop com sonoridades experimentais e influências do synthpop."
+    },
+    {
+      "id": 2,
+      "nome": "Hip-Hop / Trap",
+      "descricao": "Batidas pesadas, rimas afiadas e cultura urbana brasileira."
+    },
+    {
+      "id": 3,
+      "nome": "Indie Rock",
+      "descricao": "Rock independente com som autoral e energia ao vivo."
+    },
+    {
+      "id": 4,
+      "nome": "MPB",
+      "descricao": "Música Popular Brasileira, da bossa nova ao violão contemporâneo."
+    },
+    {
+      "id": 5,
+      "nome": "Eletrônica",
+      "descricao": "House, techno e batidas para pistas de dança e festivais."
+    },
+    {
+      "id": 6,
+      "nome": "Sertanejo",
+      "descricao": "Sertanejo raiz e viola caipira retratando o interior do Brasil."
+    }
+  ],
+  "avaliacoes": [
+    {
+      "id": 1,
+      "itemId": 1,
+      "nota": 5,
+      "comentario": "A voz da Luna é hipnotizante, melhor artista pop do momento!"
+    },
+    {
+      "id": 2,
+      "itemId": 2,
+      "nota": 4,
+      "comentario": "Batidas pesadas e letras que representam a quebrada."
+    },
+    {
+      "id": 3,
+      "itemId": 3,
+      "nota": 5,
+      "comentario": "Vi ao vivo em BH e foi inesquecível."
+    },
+    {
+      "id": 4,
+      "itemId": 7,
+      "nota": 5,
+      "comentario": "Neon Dreams é um clássico instantâneo."
+    },
+    {
+      "id": 5,
+      "itemId": 9,
+      "nota": 4,
+      "comentario": "Caos Controlado é o melhor disco de rock indie nacional."
+    },
+    {
+      "id": 6,
+      "itemId": 12,
+      "nota": 5,
+      "comentario": "Sertanejo raiz de verdade, emocionante do começo ao fim."
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@vibemusic.com",
+      "admin": true
+    },
+    {
+      "id": 2,
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuário Comum",
+      "email": "user@vibemusic.com",
+      "admin": false
+    }
+  ],
+  "favoritos": []
+}

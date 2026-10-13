@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeMusic - Favoritos</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="cabecalho-esquerda" class="cabecalho">
+            <a href="index.html" id="logo">VibeMusic</a>
+            <a href="index.html#autor" class="nav-link">Sobre Nós</a>
+            <a href="index.html#buscar" class="nav-link">Explorar</a>
+            <a href="index.html#estatisticas" class="nav-link">Estatísticas</a>
+            <a href="favoritos.html" id="link-favoritos" class="nav-link" hidden>Favoritos</a>
+            <a href="cadastro.html" id="link-cadastro" class="nav-link" hidden>Cadastrar</a>
+        </nav>
+
+        <nav id="cabecalho-direita" class="cabecalho">
+            <a href="index.html" id="btn-voltar">← Voltar</a>
+            <span id="saudacao-usuario" class="saudacao" hidden></span>
+            <a href="registro.html" id="link-registro" class="botao-cadastrese">Cadastre-se</a>
+            <a href="login.html" id="link-login" class="botao-login">Log In</a>
+            <button id="btn-logout" class="botao-logout" hidden>Logout</button>
+        </nav>
+
+        <div class="menu-hamburguer" aria-hidden="true">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+    <main>
+        <section id="favoritos">
+            <h1>Meus Favoritos</h1>
+            <p>Os artistas e álbuns que você marcou como favoritos.</p>
+            <section id="lista-favoritos"></section>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li class="Titulo-lista">Empresa</li>
+            <li>Sobre</li>
+            <li>Junte-se a nós</li>
+        </ul>
+        <ul>
+            <li class="Titulo-lista">Comunidade</li>
+            <li>Blog</li>
+            <li>Fórum</li>
+            <li>Publicidade</li>
+        </ul>
+        <ul>
+            <li class="Titulo-lista">Plataforma</li>
+            <li>Como Funciona</li>
+            <li>Nossos Planos</li>
+        </ul>
+        <div id="icones">
+            <img src="assets/img/icone1.jpg" alt="">
+            <img src="assets/img/icone2.jpg" alt="">
+        </div>
+    </footer>
+
+    <script src="assets/js/sessao.js"></script>
+    <script src="assets/js/favoritos.js"></script>
+</body>
+</html>
